@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96AEF750-C7E3-486C-90B5-12C6F360372B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D846035-B76D-4FF7-86B1-6540A2C92EFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../var/folders/1s/05t_m1k97jl86tlwtp53jyl00000gn/T/swift-generated-sources/@__swiftmacro_5FCl3p6Crotch5ModelfMm_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1D846035-B76D-4FF7-86B1-6540A2C92EFE - 173eab819f2bb157"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FCl3p.Crotch.init(exist: Swift.Bool, distance: Swift.String, hasPost: Swift.Bool) -&gt; FCl3p.Crotch"
+                  moduleName = "FCl3p"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/1s/05t_m1k97jl86tlwtp53jyl00000gn/T/swift-generated-sources/@__swiftmacro_5FCl3p6Crotch5ModelfMm_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2"
+                  endingLineNumber = "2"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "1D846035-B76D-4FF7-86B1-6540A2C92EFE - d1b3054c8b096c14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FCl3p.Crotch.init(distance: Swift.String) -&gt; FCl3p.Crotch"
+                  moduleName = "FCl3p"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/1s/05t_m1k97jl86tlwtp53jyl00000gn/T/swift-generated-sources/@__swiftmacro_5FCl3p6Crotch5ModelfMm_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2"
+                  endingLineNumber = "2"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "1D846035-B76D-4FF7-86B1-6540A2C92EFE - bb107dd094d60cbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FCl3p.Crotch.init(id: Foundation.UUID, exist: Swift.Bool, distance: Swift.String, hasPost: Swift.Bool) -&gt; FCl3p.Crotch"
+                  moduleName = "FCl3p"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/1s/05t_m1k97jl86tlwtp53jyl00000gn/T/swift-generated-sources/@__swiftmacro_5FCl3p6Crotch5ModelfMm_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2"
+                  endingLineNumber = "2"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "1D846035-B76D-4FF7-86B1-6540A2C92EFE - 638f9c3c1bfd10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FCl3p.Crotch.init(id: Foundation.UUID, distance: Swift.String) -&gt; FCl3p.Crotch"
+                  moduleName = "FCl3p"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/1s/05t_m1k97jl86tlwtp53jyl00000gn/T/swift-generated-sources/@__swiftmacro_5FCl3p6Crotch5ModelfMm_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2"
+                  endingLineNumber = "2"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "1D846035-B76D-4FF7-86B1-6540A2C92EFE - d1b3054c8b096c14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FCl3p.Crotch.init(distance: Swift.String) -&gt; FCl3p.Crotch"
+                  moduleName = "FCl3p"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/1s/05t_m1k97jl86tlwtp53jyl00000gn/T/swift-generated-sources/@__swiftmacro_5FCl3p6Crotch5ModelfMm_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2"
+                  endingLineNumber = "2"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

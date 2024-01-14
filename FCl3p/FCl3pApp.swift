@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct FCl3pApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProjectListView()
+                .accentColor(Color(.label))
         }
+        .modelContainer(for: [Project.self, FlightCrotch.self])
     }
+    
+//    init () {
+//        print(URL.applicationSupportDirectory.path(percentEncoded: false))
+//    }
 }

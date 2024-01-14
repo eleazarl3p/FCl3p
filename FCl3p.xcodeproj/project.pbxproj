@@ -7,18 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156193052AD6D2F3000D9A35 /* FlightCrotch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193042AD6D2F2000D9A35 /* FlightCrotch.swift */; };
+		156193072AD6D867000D9A35 /* FlightTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193062AD6D867000D9A35 /* FlightTabView.swift */; };
+		156193092AD6D890000D9A35 /* FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193082AD6D890000D9A35 /* FlightDetailView.swift */; };
+		1561930C2AD6E02E000D9A35 /* CrotchShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561930B2AD6E02E000D9A35 /* CrotchShape.swift */; };
+		1561930E2AD6E04F000D9A35 /* EmbeddedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561930D2AD6E04F000D9A35 /* EmbeddedShape.swift */; };
+		156193102AD6E07C000D9A35 /* StaircaseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561930F2AD6E07C000D9A35 /* StaircaseShape.swift */; };
+		156193122AD6E1A6000D9A35 /* StickShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193112AD6E1A6000D9A35 /* StickShape.swift */; };
+		156193142AD6E1FA000D9A35 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193132AD6E1FA000D9A35 /* Color-Theme.swift */; };
+		156193162AD6E307000D9A35 /* PaintStairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193152AD6E307000D9A35 /* PaintStairView.swift */; };
+		156193182AD6E350000D9A35 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156193172AD6E350000D9A35 /* DummyData.swift */; };
+		1561931B2AD6F248000D9A35 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561931A2AD6F248000D9A35 /* MailView.swift */; };
+		1561931D2AD6F27C000D9A35 /* Mensajero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561931C2AD6F27C000D9A35 /* Mensajero.swift */; };
+		1561931F2AD720BC000D9A35 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561931E2AD720BB000D9A35 /* Item.swift */; };
+		156924D32B33784C00010BBF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156924D22B33784C00010BBF /* Launch Screen.storyboard */; };
 		157D70C82AD5C97D007366D1 /* FCl3pApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70C72AD5C97D007366D1 /* FCl3pApp.swift */; };
-		157D70CA2AD5C97D007366D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70C92AD5C97D007366D1 /* ContentView.swift */; };
+		157D70CA2AD5C97D007366D1 /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70C92AD5C97D007366D1 /* ProjectListView.swift */; };
 		157D70CC2AD5C97F007366D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157D70CB2AD5C97F007366D1 /* Assets.xcassets */; };
 		157D70CF2AD5C97F007366D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157D70CE2AD5C97F007366D1 /* Preview Assets.xcassets */; };
+		157D70D82AD5C9A5007366D1 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70D72AD5C9A5007366D1 /* Project.swift */; };
+		157D70DA2AD5C9BB007366D1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70D92AD5C9BB007366D1 /* Post.swift */; };
+		157D70DE2AD5C9EF007366D1 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70DD2AD5C9EF007366D1 /* Flight.swift */; };
+		157D70E02AD5CA02007366D1 /* EmbeddedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70DF2AD5CA02007366D1 /* EmbeddedType.swift */; };
+		157D70E22AD5CA17007366D1 /* Baluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70E12AD5CA17007366D1 /* Baluster.swift */; };
+		157D70E42AD5CA2F007366D1 /* Stair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70E32AD5CA2F007366D1 /* Stair.swift */; };
+		157D70E72AD5CA5F007366D1 /* FCTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70E62AD5CA5F007366D1 /* FCTools.swift */; };
+		157D70E92AD5CAA5007366D1 /* NewProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70E82AD5CAA5007366D1 /* NewProject.swift */; };
+		157D70EB2AD5D069007366D1 /* StairListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70EA2AD5D069007366D1 /* StairListView.swift */; };
+		157D70ED2AD5D42E007366D1 /* NewStair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70EC2AD5D42E007366D1 /* NewStair.swift */; };
+		157D70EF2AD5DDDA007366D1 /* FlightListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70EE2AD5DDDA007366D1 /* FlightListView.swift */; };
+		157D70F12AD5E261007366D1 /* NewFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D70F02AD5E261007366D1 /* NewFlight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		156193042AD6D2F2000D9A35 /* FlightCrotch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightCrotch.swift; sourceTree = "<group>"; };
+		156193062AD6D867000D9A35 /* FlightTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTabView.swift; sourceTree = "<group>"; };
+		156193082AD6D890000D9A35 /* FlightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailView.swift; sourceTree = "<group>"; };
+		1561930B2AD6E02E000D9A35 /* CrotchShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrotchShape.swift; sourceTree = "<group>"; };
+		1561930D2AD6E04F000D9A35 /* EmbeddedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedShape.swift; sourceTree = "<group>"; };
+		1561930F2AD6E07C000D9A35 /* StaircaseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseShape.swift; sourceTree = "<group>"; };
+		156193112AD6E1A6000D9A35 /* StickShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickShape.swift; sourceTree = "<group>"; };
+		156193132AD6E1FA000D9A35 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		156193152AD6E307000D9A35 /* PaintStairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintStairView.swift; sourceTree = "<group>"; };
+		156193172AD6E350000D9A35 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		1561931A2AD6F248000D9A35 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		1561931C2AD6F27C000D9A35 /* Mensajero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensajero.swift; sourceTree = "<group>"; };
+		1561931E2AD720BB000D9A35 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		156924D22B33784C00010BBF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		157D70C42AD5C97D007366D1 /* FCl3p.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCl3p.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157D70C72AD5C97D007366D1 /* FCl3pApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCl3pApp.swift; sourceTree = "<group>"; };
-		157D70C92AD5C97D007366D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		157D70C92AD5C97D007366D1 /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
 		157D70CB2AD5C97F007366D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157D70CE2AD5C97F007366D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		157D70D72AD5C9A5007366D1 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		157D70D92AD5C9BB007366D1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		157D70DD2AD5C9EF007366D1 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		157D70DF2AD5CA02007366D1 /* EmbeddedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedType.swift; sourceTree = "<group>"; };
+		157D70E12AD5CA17007366D1 /* Baluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baluster.swift; sourceTree = "<group>"; };
+		157D70E32AD5CA2F007366D1 /* Stair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stair.swift; sourceTree = "<group>"; };
+		157D70E62AD5CA5F007366D1 /* FCTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCTools.swift; sourceTree = "<group>"; };
+		157D70E82AD5CAA5007366D1 /* NewProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProject.swift; sourceTree = "<group>"; };
+		157D70EA2AD5D069007366D1 /* StairListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairListView.swift; sourceTree = "<group>"; };
+		157D70EC2AD5D42E007366D1 /* NewStair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStair.swift; sourceTree = "<group>"; };
+		157D70EE2AD5DDDA007366D1 /* FlightListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListView.swift; sourceTree = "<group>"; };
+		157D70F02AD5E261007366D1 /* NewFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFlight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1561930A2AD6E011000D9A35 /* CustomShapes */ = {
+			isa = PBXGroup;
+			children = (
+				1561930B2AD6E02E000D9A35 /* CrotchShape.swift */,
+				1561930D2AD6E04F000D9A35 /* EmbeddedShape.swift */,
+				1561930F2AD6E07C000D9A35 /* StaircaseShape.swift */,
+				156193112AD6E1A6000D9A35 /* StickShape.swift */,
+			);
+			path = CustomShapes;
+			sourceTree = "<group>";
+		};
+		156193192AD6F213000D9A35 /* UIViewControllerRepresentables */ = {
+			isa = PBXGroup;
+			children = (
+				1561931A2AD6F248000D9A35 /* MailView.swift */,
+			);
+			path = UIViewControllerRepresentables;
+			sourceTree = "<group>";
+		};
 		157D70BB2AD5C97D007366D1 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				157D70C72AD5C97D007366D1 /* FCl3pApp.swift */,
-				157D70C92AD5C97D007366D1 /* ContentView.swift */,
+				156924D22B33784C00010BBF /* Launch Screen.storyboard */,
+				156193132AD6E1FA000D9A35 /* Color-Theme.swift */,
+				156193172AD6E350000D9A35 /* DummyData.swift */,
+				1561931C2AD6F27C000D9A35 /* Mensajero.swift */,
+				156193192AD6F213000D9A35 /* UIViewControllerRepresentables */,
+				1561930A2AD6E011000D9A35 /* CustomShapes */,
+				157D70E52AD5CA41007366D1 /* FCTools */,
+				157D70D62AD5C990007366D1 /* View */,
+				157D70D52AD5C98A007366D1 /* Model */,
 				157D70CB2AD5C97F007366D1 /* Assets.xcassets */,
 				157D70CD2AD5C97F007366D1 /* Preview Content */,
 			);
@@ -65,6 +144,45 @@
 				157D70CE2AD5C97F007366D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		157D70D52AD5C98A007366D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				157D70E12AD5CA17007366D1 /* Baluster.swift */,
+				157D70DF2AD5CA02007366D1 /* EmbeddedType.swift */,
+				157D70DD2AD5C9EF007366D1 /* Flight.swift */,
+				156193042AD6D2F2000D9A35 /* FlightCrotch.swift */,
+				157D70D92AD5C9BB007366D1 /* Post.swift */,
+				157D70D72AD5C9A5007366D1 /* Project.swift */,
+				157D70E32AD5CA2F007366D1 /* Stair.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		157D70D62AD5C990007366D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				157D70EE2AD5DDDA007366D1 /* FlightListView.swift */,
+				156193062AD6D867000D9A35 /* FlightTabView.swift */,
+				156193082AD6D890000D9A35 /* FlightDetailView.swift */,
+				1561931E2AD720BB000D9A35 /* Item.swift */,
+				157D70F02AD5E261007366D1 /* NewFlight.swift */,
+				157D70E82AD5CAA5007366D1 /* NewProject.swift */,
+				157D70EC2AD5D42E007366D1 /* NewStair.swift */,
+				156193152AD6E307000D9A35 /* PaintStairView.swift */,
+				157D70C92AD5C97D007366D1 /* ProjectListView.swift */,
+				157D70EA2AD5D069007366D1 /* StairListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		157D70E52AD5CA41007366D1 /* FCTools */ = {
+			isa = PBXGroup;
+			children = (
+				157D70E62AD5CA5F007366D1 /* FCTools.swift */,
+			);
+			path = FCTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156924D32B33784C00010BBF /* Launch Screen.storyboard in Resources */,
 				157D70CF2AD5C97F007366D1 /* Preview Assets.xcassets in Resources */,
 				157D70CC2AD5C97F007366D1 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +256,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157D70CA2AD5C97D007366D1 /* ContentView.swift in Sources */,
+				1561930C2AD6E02E000D9A35 /* CrotchShape.swift in Sources */,
+				156193162AD6E307000D9A35 /* PaintStairView.swift in Sources */,
+				157D70EB2AD5D069007366D1 /* StairListView.swift in Sources */,
+				157D70E42AD5CA2F007366D1 /* Stair.swift in Sources */,
+				1561931F2AD720BC000D9A35 /* Item.swift in Sources */,
+				157D70CA2AD5C97D007366D1 /* ProjectListView.swift in Sources */,
+				157D70E02AD5CA02007366D1 /* EmbeddedType.swift in Sources */,
 				157D70C82AD5C97D007366D1 /* FCl3pApp.swift in Sources */,
+				157D70E72AD5CA5F007366D1 /* FCTools.swift in Sources */,
+				156193182AD6E350000D9A35 /* DummyData.swift in Sources */,
+				156193142AD6E1FA000D9A35 /* Color-Theme.swift in Sources */,
+				157D70E22AD5CA17007366D1 /* Baluster.swift in Sources */,
+				1561931B2AD6F248000D9A35 /* MailView.swift in Sources */,
+				156193072AD6D867000D9A35 /* FlightTabView.swift in Sources */,
+				157D70ED2AD5D42E007366D1 /* NewStair.swift in Sources */,
+				156193122AD6E1A6000D9A35 /* StickShape.swift in Sources */,
+				157D70EF2AD5DDDA007366D1 /* FlightListView.swift in Sources */,
+				157D70E92AD5CAA5007366D1 /* NewProject.swift in Sources */,
+				156193092AD6D890000D9A35 /* FlightDetailView.swift in Sources */,
+				157D70F12AD5E261007366D1 /* NewFlight.swift in Sources */,
+				157D70D82AD5C9A5007366D1 /* Project.swift in Sources */,
+				1561931D2AD6F27C000D9A35 /* Mensajero.swift in Sources */,
+				157D70DE2AD5C9EF007366D1 /* Flight.swift in Sources */,
+				1561930E2AD6E04F000D9A35 /* EmbeddedShape.swift in Sources */,
+				156193052AD6D2F3000D9A35 /* FlightCrotch.swift in Sources */,
+				156193102AD6E07C000D9A35 /* StaircaseShape.swift in Sources */,
+				157D70DA2AD5C9BB007366D1 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +422,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +453,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
